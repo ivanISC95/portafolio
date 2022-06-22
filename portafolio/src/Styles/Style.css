@@ -1,3 +1,7 @@
+*{
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .NavBar {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 77%, rgba(3, 39, 46, 1) 100%);
@@ -6,8 +10,10 @@
 .body {
     padding: 50px 15px 5px;
     height: 913px;
-    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);    
 }
+
 
 .informacion {
     height: 300px;
@@ -41,33 +47,46 @@
     background-image: url("../img/about.gif");
 }
 .aboutInicio{
+    color: aliceblue;
     width: 100%;
     padding: 50px 15px 50px;    
     text-align: center;
     display: flex;
     justify-content: center;
     border-style: solid;
-    border-color: black;    
+    border-color: black;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);     
 }
 .aboutImg{
+    padding: 20px 15px 20px;    
     width: 650px;
-    height: 550px;
-    background-color: red;
+    height: 550px;    
     float: left;
 }
 .aboutInfo{
+    padding: 20px 15px 20px;    
     width: 650px;
-    height: 550px;
-    background-color: blue;
-    float: left;    
+    height: 550px;    
+    float: left;
+
     
 }
+.descripcion{
+    font-size: 130%;
+}
 h1:hover{
-    color: gold;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h2:hover{    
-    color: gold;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 p:hover{
-    color: gold;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

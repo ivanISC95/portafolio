@@ -1,3 +1,4 @@
+import me from '../../img/me.png';
 export default function Home() {
     return (
         <div>
@@ -6,11 +7,7 @@ export default function Home() {
             </div>
             <div className="body">
                 <div className="foto">
-                    <h1>foto</h1>
-                    <h1>foto</h1>
-                    <h1>foto</h1>
-                    <h1>foto</h1>
-                    <h1>foto</h1>
+                    <img src={me} alt="me"></img>
                 </div>
                 <div className="informacion">
                     <h2 className="nombre">Soy Jose Ivan</h2>
