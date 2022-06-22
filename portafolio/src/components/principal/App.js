@@ -6,10 +6,10 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 export default function App() {
     return (
-        <div>
+        <div>            
             <Router>
-                <Navbar className="NavBar" expand="lg" variant="dark">
-                    <Container >
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                    <Container fluid>
                         <Navbar.Brand as={Link} to="/">Ivan/Portafolio</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

@@ -1,28 +1,73 @@
-.NavBar{     
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 77%, rgba(3,39,46,1) 100%); 
+.NavBar {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 77%, rgba(3, 39, 46, 1) 100%);
 }
-.body{
-    padding: 50px 15px 5px;    
-    height: 910px;
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
+.body {
+    padding: 50px 15px 5px;
+    height: 913px;
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
 }
-.informacion{
+
+.informacion {
     height: 300px;
     width: 100%;
-    text-align: center;     
+    text-align: center;
 }
-.nombre{
+
+.nombre {
     font-size: 2cm;
 }
-.profesion{
+
+.profesion {
     font-size: 1cm;
 }
-.nombre , .profesion{
+
+.nombre,
+.profesion {
     color: white;
 }
-.foto{
+
+.foto {
     text-align: center;
+}
+
+.inicio {
+    text-align: center;
+    color: aliceblue;
+    padding: 140px;
+    border-style: solid;
+    border-color: black;    
+    background-image: url("../img/about.gif");
+}
+.aboutInicio{
+    width: 100%;
+    padding: 50px 15px 50px;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;    
+}
+.aboutImg{
+    width: 650px;
+    height: 550px;
+    background-color: red;
+    float: left;
+}
+.aboutInfo{
+    width: 650px;
+    height: 550px;
+    background-color: blue;
+    float: left;    
+    
+}
+h1:hover{
+    color: gold;
+}
+h2:hover{    
+    color: gold;
+}
+p:hover{
+    color: gold;
 }
