@@ -1,18 +1,21 @@
 import me from '../../img/me.png';
+import Info from './Info';
+
 export default function Home() {
     return (
         <div>
-            <div className="inicio">
-                <h1>Home</h1>
+            <div className="aboutInicio">
+                <div className="aboutInfo">                    
+                    <h1 className='nombre'>Soy Ivan Perez</h1>
+                    <br></br>
+                    <h2>Ingeniero en Sitemas Computacionales</h2>                    
+                </div>
+                <div className="aboutImg">
+                    <img src={me}></img>
+                </div>
             </div>
-            <div className="body">
-                <div className="foto">
-                    <img src={me} alt="me"></img>
-                </div>
-                <div className="informacion">
-                    <h2 className="nombre">Soy Jose Ivan</h2>
-                    <p className="profesion">Ingeniero en Sistemas Computacionales</p>
-                </div>
+            <div>
+                <Info></Info>
             </div>
         </div>
     )
