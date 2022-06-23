@@ -1,4 +1,5 @@
 import logo from '../../img/graduacion.png'
+import Academic from './Academic'
 export default function About(){
     return(
         <div>
@@ -14,6 +15,7 @@ export default function About(){
                     Me apasiona el desarrollo web , tanto front-end y back-end, en ambos tengo habilidades y conocimientos para desempeñarme como desarrollador full-stack, tengo experiencia desarrollando proyectos escolares y proyectos privados.</p>
                 </div>
             </div>
+            <Academic></Academic>
         </div>
     )
 }

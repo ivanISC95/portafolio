@@ -1,7 +1,20 @@
 *{
     font-family: 'Cormorant Garamond', serif;
 }
-
+li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+.text-center{
+    font-size: 20px;
+}
 .NavBar {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 77%, rgba(3, 39, 46, 1) 100%);
@@ -27,6 +40,11 @@
 
 .profesion {
     font-size: 1cm;
+}
+li:hover{
+    color: #000000;
+    border: 1px solid #292929;
+    transition: .5s;
 }
 
 .nombre,
@@ -74,18 +92,35 @@
 .descripcion{
     font-size: 180%;
 }
+.formacion{
+    padding: 20px 15px 20px;             
+    color: black;
+    text-align: center;
+}
+.redes{    
+    color: black;
+    width: 100%;
+    height: 350px;
+    padding: 50px 15px 50px;    
+    text-align: center;    
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
 h1:hover{
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(gold, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
 h2:hover{    
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(gold, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 p:hover{
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(gold, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

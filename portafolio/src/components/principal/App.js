@@ -4,7 +4,7 @@ import '../../Styles/Style.css';
 import Home from "../Home/Home";
 import About from '../About/About';
 import Contact from '../Contact/Contact';
-import Info from "../Home/Info";
+
 export default function App() {
     return (
         <div>            
@@ -18,7 +18,7 @@ export default function App() {
                                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                                 <Nav.Link as={Link} to="/About">About</Nav.Link>
                                 <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
-                                <Nav.Link as={Link} to="/Info">info</Nav.Link>
+                                
                                 <NavDropdown title="Links" id="basic-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -34,7 +34,7 @@ export default function App() {
                     <Route path="/" element={<Home />}/>
                     <Route path="/About" element={<About />}/>
                     <Route path="/Contact" element={<Contact />}/>
-                    <Route path="/Info" element={<Info />}/>
+                    
                 </Routes>
             </Router>                        
         </div>

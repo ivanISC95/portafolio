@@ -1,5 +1,5 @@
 import me from '../../img/me.png';
-import Info from './Info';
+import Redes from './Redes';
 
 export default function Home() {
     return (
@@ -14,9 +14,7 @@ export default function Home() {
                     <img src={me}></img>
                 </div>
             </div>
-            <div>
-                <Info></Info>
-            </div>
+            <Redes></Redes>
         </div>
     )
 }
