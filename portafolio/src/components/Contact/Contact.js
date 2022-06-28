@@ -1,8 +1,6 @@
 import Redes from "../Home/Redes";
-import { Card, Nav, Button } from "react-bootstrap";
-import { BsGithub } from "react-icons/bs";
-import { SiGmail } from "react-icons/si";
-import { BsFacebook, BsInstagram } from 'react-icons/bs';
+import { Card,Button } from "react-bootstrap";
+import cv from '../../PDF/Perez Ugalde Jose Ivan CV.pdf';
 export default function Contact() {
     return (
         <div>
@@ -18,6 +16,10 @@ export default function Contact() {
                         <Card.Text>
                             ivan2295isc@gmail.com
                         </Card.Text>                        
+                    </Card.Body>
+                    <Card.Body>
+                        <Card.Title>Mi CV</Card.Title>
+                        <Button href={cv} download={cv} variant="outline-primary">Descargar CV</Button>                        
                     </Card.Body>
                 </Card>
             </div>
