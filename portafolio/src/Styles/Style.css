@@ -1,7 +1,8 @@
-*{
+* {
     font-family: 'Cormorant Garamond', serif;
 }
-li{
+
+li {
     list-style: none;
     margin: 10px 30px;
     display: inline-block;
@@ -12,18 +13,22 @@ li{
     border-radius: 50%;
     transition: .5s;
 }
-.text-center{
-    font-size: 20px;    
+
+.text-center {
+    font-size: 20px;
 }
-.academic{
+
+.academic {
     padding: 50px 15px 10px;
     background-color: #292929;
 }
-.skills{    
+
+.skills {
     padding: 1px 15px 10px;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
+
 .NavBar {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 77%, rgba(3, 39, 46, 1) 100%);
@@ -33,7 +38,7 @@ li{
     padding: 50px 15px 5px;
     height: 913px;
     background-color: #2d3436;
-    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);    
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
 
@@ -50,7 +55,8 @@ li{
 .profesion {
     font-size: 1cm;
 }
-li:hover{
+
+li:hover {
     color: #000000;
     border: 1px solid #292929;
     transition: .5s;
@@ -70,70 +76,96 @@ li:hover{
     color: aliceblue;
     padding: 140px;
     border-style: solid;
-    border-color: black;    
+    border-color: black;
     background-image: url("../img/about.gif");
 }
-.aboutInicio{
+
+.aboutInicio {
     color: aliceblue;
     width: 100%;
     height: 720px;
-    padding: 50px 15px 50px;    
+    padding: 50px 15px 50px;
     text-align: center;
     display: flex;
     justify-content: center;
     border-style: solid;
     border-color: black;
     background-color: #2d3436;
-    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);     
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
-.aboutImg{
-    padding: 20px 15px 20px;    
+
+.aboutImg {
+    padding: 20px 15px 20px;
     width: 650px;
-    height: 550px;    
+    height: 550px;
     float: left;
 }
-.aboutInfo{
-    padding: 20px 15px 20px;    
+
+.aboutInfo {
+    padding: 20px 15px 20px;
     width: 650px;
-    height: 550px;    
-    float: left;    
+    height: 550px;
+    float: left;
 }
-.descripcion{
+
+.descripcion {
     font-size: 180%;
 }
-.formacion{
-    padding: 20px 15px 20px;             
+
+.formacion {
+    padding: 20px 15px 20px;
     color: antiquewhite;
     text-align: center;
 }
-.redes{    
+
+.redes {
     color: black;
     width: 100%;
     height: 100%;
-    padding: 50px 15px 50px;    
-    text-align: center;    
+    padding: 50px 15px 50px;
+    text-align: center;
     justify-content: center;
     border-style: solid;
     border-color: black;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
-.iconsSkills{
+
+.iconsSkills {
     width: 100%;
     height: 100%;
+    color: black;
 }
-h1:hover{
-    background: -webkit-linear-gradient(gold, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
+
+.skills-card {
+    color: #000000;
 }
-h2:hover{    
-    background: -webkit-linear-gradient(gold, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+.courses {
+    padding: 1px 15px 10px;
+    background-image: linear-gradient( 108.3deg,  rgba(202,73,118,1) 15.2%, rgba(255,84,84,1) 99.3% );
 }
-p:hover{
+.courses-img{
+    width: 100%;
+    height: 950px;
+}
+h1:hover {
     background: -webkit-linear-gradient(gold, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+h2:hover {
+    background: -webkit-linear-gradient(gold, #333);
+    -webkit-background-clip: text;
+    background-clip: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+p:hover {
+    background: -webkit-linear-gradient(blue, black);
+    -webkit-background-clip: text;
+    background-clip: transparent;
+    -webkit-text-fill-color: transparent;
 }
