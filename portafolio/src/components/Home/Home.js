@@ -10,8 +10,7 @@ export default function Home() {
                     <br></br>
                     <h2>Ingeniero en Sistemas Computacionales</h2>                    
                     <img src={me} alt="me"></img>
-                </div>
-                
+                </div>                
             </div>
             <Redes></Redes>
         </div>
