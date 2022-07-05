@@ -8,11 +8,10 @@ export default function Home() {
                 <div className="aboutInfo">                    
                     <h1 className='nombre'>Soy Ivan Perez</h1>
                     <br></br>
-                    <h2>Ingeniero en Sitemas Computacionales</h2>                    
+                    <h2>Ingeniero en Sistemas Computacionales</h2>                    
+                    <img src={me} alt="me"></img>
                 </div>
-                <div className="aboutImg">
-                    <img src={me}></img>
-                </div>
+                
             </div>
             <Redes></Redes>
         </div>

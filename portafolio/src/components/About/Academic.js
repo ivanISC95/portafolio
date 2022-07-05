@@ -1,4 +1,4 @@
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import tec from '../../img/tec.jpeg';
 export default function Academic() {
     return (
@@ -14,7 +14,7 @@ export default function Academic() {
                         <Card.Text>
                         Realice mi carrera profesional en el Tecnologico de San Juan del Rio ,  Queretaro.                            
                         </Card.Text>
-                        <img src={tec}></img>
+                        <img src={tec} alt="Plantel ITSJR"></img>
                         <Card.Text>
                         Carrera Concluida
                         </Card.Text>

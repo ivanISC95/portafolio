@@ -49,7 +49,7 @@ li {
 }
 
 .nombre {
-    font-size: 2cm;
+    font-size: 1cm;
 }
 
 .profesion {
@@ -94,17 +94,14 @@ li:hover {
     background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
-.aboutImg {
-    padding: 20px 15px 20px;
-    width: 650px;
-    height: 550px;
+.aboutImg {        
+    height: 30%;
     float: left;
 }
 
 .aboutInfo {
-    padding: 20px 15px 20px;
-    width: 650px;
-    height: 550px;
+    padding: 20px 15px 20px;    
+    height: 30%;
     float: left;
 }
 

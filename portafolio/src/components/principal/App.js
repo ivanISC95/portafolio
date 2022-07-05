@@ -1,4 +1,4 @@
-import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap"
+import { Nav, Navbar, Container } from "react-bootstrap"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import '../../Styles/Style.css';
 import Home from "../Home/Home";
@@ -24,6 +24,8 @@ export default function App() {
                 </Navbar>
                 <Routes>
                     <Route path="/" element={<Home />}/>
+                    <Route path="/ivanisc95.github.io/portafolio/" element={<Home />}/>
+                    <Route path="/portafolio/" element={<Home />}/>
                     <Route path="/About" element={<About />}/>
                     <Route path="/Contact" element={<Contact />}/>                    
                 </Routes>

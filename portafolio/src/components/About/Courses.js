@@ -1,4 +1,4 @@
-import { Card, Carousel } from "react-bootstrap";
+import {Carousel } from "react-bootstrap";
 import backEnd from '../../img/backEnd.jpg';
 import frontEnd from '../../img/frontEnd.jpg';
 import Red1 from '../../img/Red1.jpg';
@@ -23,7 +23,8 @@ export default function Courses() {
                             <Carousel.Item>
                                 <img
                                     className="courses-img"
-                                    src={data.img}                                    
+                                    src={data.img}  
+                                    alt="cursos"                                  
                                 />
                                 <br></br>
                                 <br></br>
