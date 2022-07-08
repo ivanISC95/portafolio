@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.da37e504.css",
-    "main.js": "/portafolio/static/js/main.4f47dda4.js",
+    "main.js": "/portafolio/static/js/main.0641023e.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/gitCertificado.jpg": "/portafolio/static/media/gitCertificado.c41e4861ccc9cdaf7cec.jpg",
     "static/media/Perez Ugalde Jose Ivan CV.pdf": "/portafolio/static/media/Perez Ugalde Jose Ivan CV.cb4c932b20a628875220.pdf",
@@ -15,11 +15,11 @@
     "static/media/tec.jpeg": "/portafolio/static/media/tec.fb3345fbb506fc62ece2.jpeg",
     "index.html": "/portafolio/index.html",
     "main.da37e504.css.map": "/portafolio/static/css/main.da37e504.css.map",
-    "main.4f47dda4.js.map": "/portafolio/static/js/main.4f47dda4.js.map",
+    "main.0641023e.js.map": "/portafolio/static/js/main.0641023e.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da37e504.css",
-    "static/js/main.4f47dda4.js"
+    "static/js/main.0641023e.js"
   ]
 }
