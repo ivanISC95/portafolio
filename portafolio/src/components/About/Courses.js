@@ -20,8 +20,8 @@ export default function Courses() {
                 {
                     data.map(
                         data => (
-                            <Carousel.Item>
-                                <img
+                            <Carousel.Item key={data.titulo}>
+                                <img                                    
                                     className="courses-img"
                                     src={data.img}  
                                     alt="cursos"                                  
