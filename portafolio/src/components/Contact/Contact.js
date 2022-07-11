@@ -9,7 +9,7 @@ export default function Contact() {
             </div>
             <div className="academic">
                 <h1 className='formacion'>Mis datos de contacto se muestran a continuación</h1>
-                <Card>
+                <Card className="contacto">
 
                     <Card.Body>
                         <Card.Title>Correo Electronico</Card.Title>

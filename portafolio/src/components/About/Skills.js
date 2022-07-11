@@ -1,4 +1,4 @@
-import { Card, CardGroup,Row } from "react-bootstrap";
+import { Card,Row } from "react-bootstrap";
 import { IoLogoJavascript } from 'react-icons/io5';
 import { FaPhp, FaPython, FaReact,FaUbuntu,FaGithub,FaHtml5 } from 'react-icons/fa';
 import {SiMysql,SiPostgresql,SiCsswizardry} from 'react-icons/si';
