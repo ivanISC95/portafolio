@@ -12,7 +12,7 @@ export default function Academic() {
                     <Card.Body>
                         <Card.Title>Ingenieria en Sistemas Computacionales</Card.Title>
                         <Card.Text>
-                        Realice mi carrera profesional en el Tecnologico de San Juan del Rio ,  Queretaro.                            
+                        Instituto Tecnologico de San Juan del Rio ,  Queretaro.                            
                         </Card.Text>
                         <img src={tec} alt="Plantel ITSJR"></img>
                         <Card.Text>

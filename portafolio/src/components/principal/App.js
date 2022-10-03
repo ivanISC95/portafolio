@@ -4,6 +4,7 @@ import '../../Styles/Style.css';
 import Home from "../Home/Home";
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import WorksIndex from "../Works/WorksIndex";
 
 export default function App() {
     return (
@@ -17,7 +18,8 @@ export default function App() {
                             <Nav className="me-auto">
                                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                                 <Nav.Link as={Link} to="/About">About</Nav.Link>
-                                <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>                            
+                                <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
+                                <Nav.Link as={Link} to="/WorksIndex">Works</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
@@ -28,6 +30,7 @@ export default function App() {
                     <Route path="/portafolio/" element={<Home />}/>
                     <Route path="/About" element={<About />}/>
                     <Route path="/Contact" element={<Contact />}/>                    
+                    <Route path="/WorksIndex" element={<WorksIndex />}/>      
                 </Routes>
             </Router>                        
         </div>

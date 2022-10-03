@@ -1,6 +1,7 @@
 * {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Titillium Web', sans-serif;
 }
+
 
 li {
     list-style: none;
@@ -20,13 +21,12 @@ li {
 
 .academic {
     padding: 50px 15px 10px;
-    background-color: #292929;
+    background-color: black;
 }
 
 .skills {
     padding: 1px 15px 10px;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    background: black;    
 }
 
 .NavBar {
@@ -49,7 +49,8 @@ li {
 }
 
 .nombre {
-    font-size: 1cm;
+    font-size: 2cm;
+
 }
 
 .profesion {
@@ -62,10 +63,6 @@ li:hover {
     transition: .5s;
 }
 
-.nombre,
-.profesion {
-    color: white;
-}
 
 .foto {
     text-align: center;
@@ -90,9 +87,18 @@ li:hover {
     justify-content: center;
     border-style: solid;
     border-color: black;
-    background-color: #2d3436;
-    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    background-color: black;    
 }
+.HomePhoto{
+    filter: drop-shadow(0 0 20px white);
+}
+.App-content-characters {    
+    
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2px + 2vmin);    
+    padding: 16px;
+  }
 
 .aboutImg {        
     height: 30%;
@@ -116,8 +122,7 @@ li:hover {
     text-align: center;
 }
 
-.redes {
-    color: black;
+.redes {   
     width: 100%;
     height: 100%;
     padding: 50px 15px 50px;
@@ -125,7 +130,7 @@ li:hover {
     justify-content: center;
     border-style: solid;
     border-color: black;
-    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    background-color: black;
 }
 
 .iconsSkills {
@@ -140,7 +145,7 @@ li:hover {
 
 .courses {
     padding: 1px 15px 10px;
-    background-image: linear-gradient( 108.3deg,  rgba(202,73,118,1) 15.2%, rgba(255,84,84,1) 99.3% );
+    background-color: #000000;
 }
 .courses-img{
     width: 100%;
@@ -148,24 +153,4 @@ li:hover {
 }
 .contacto{
     align-items: center;
-}
-h1:hover {
-    background: -webkit-linear-gradient(gold, #333);
-    -webkit-background-clip: text;
-    background-clip: transparent;
-    -webkit-text-fill-color: transparent;
-}
-
-h2:hover {
-    background: -webkit-linear-gradient(gold, #333);
-    -webkit-background-clip: text;
-    background-clip: transparent;
-    -webkit-text-fill-color: transparent;
-}
-
-p:hover {
-    background: -webkit-linear-gradient(blue, black);
-    -webkit-background-clip: text;
-    background-clip: transparent;
-    -webkit-text-fill-color: transparent;
 }

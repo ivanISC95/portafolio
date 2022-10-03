@@ -9,7 +9,7 @@ export default function Home() {
                     <h1 className='nombre'>Soy Ivan Perez</h1>
                     <br></br>
                     <h2>Ingeniero en Sistemas Computacionales</h2>                    
-                    <img src={me} alt="me"></img>
+                    <img src={me} alt="me" className='HomePhoto'></img>
                 </div>                
             </div>
             <Redes></Redes>
