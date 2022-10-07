@@ -5,14 +5,16 @@ export default function Home() {
     return (
         <div>
             <div className="aboutInicio">
-                <div className="aboutInfo">                    
+                <div className="aboutInfo">
                     <h1 className='nombre'>Soy Ivan Perez</h1>
                     <br></br>
-                    <h2>Ingeniero en Sistemas Computacionales</h2>                    
+                    <h2>Ingeniero en Sistemas Computacionales</h2>
                     <img src={me} alt="me" className='HomePhoto'></img>
-                </div>                
+                </div>
             </div>
-            <Redes></Redes>
+            <div className="aboutInicio">
+                <Redes />
+            </div>
         </div>
     )
 }
