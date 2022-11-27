@@ -1,4 +1,5 @@
 import { Table } from "react-bootstrap";
+import {works} from '../Datas/Datas';
 export default function ListOfWorks() {
     return (
         <Table striped bordered hover>
@@ -10,15 +11,19 @@ export default function ListOfWorks() {
                     <th>URL</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Prueba técnica la cual llevo como finalidad crear una aplicación web que muestre los personajes de la serie de “The Rick and Morty”. Para
-                    ello se utilizará un API en la cual se obtuvo toda la información sobre los personajes y la serie.
-                    </td>
-                    <td>React.JS</td>
-                    <td> <a href="https://ivanisc95.github.io/rick-and-morty-characters/">Go </a></td>
-                </tr>                
+            <tbody>                    
+                {
+                    works.map(
+                        data =>(
+                            <tr key={data.id}>
+                                <td>{data.id}</td>
+                                <td>{data.descripcion}</td>
+                                <td>{data.tecnologia}</td>
+                                <td><a href={data.URL}>Go</a></td>
+                            </tr>
+                        )
+                    )
+                }              
             </tbody>
         </Table>
     )
