@@ -9,7 +9,7 @@ import WorksIndex from "../Works/WorksIndex";
 export default function App() {
     return (
         <div>            
-            <Router>
+            <Router basename="/portafolio">
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Container fluid>
                         <Navbar.Brand as={Link} to="/">Ivan/Portafolio</Navbar.Brand>
@@ -25,8 +25,8 @@ export default function App() {
                     </Container>
                 </Navbar>
                 <Routes>
-                    <Route path="/" element={<Home />}/>
-                    <Route path="/ivanisc95.github.io/portafolio/" element={<Home />}/>
+                    <Route path="./" element={<Home />}/>
+                    <Route path="*" element={<Home />}/>
                     <Route path="/portafolio/" element={<Home />}/>
                     <Route path="/About" element={<About />}/>
                     <Route path="/Contact" element={<Contact />}/>                    
