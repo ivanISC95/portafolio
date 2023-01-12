@@ -1,6 +1,5 @@
-import { BsGithub } from "react-icons/bs";
-import { SiGmail } from "react-icons/si";
-import { BsFacebook, BsInstagram } from 'react-icons/bs';
+import { SiGmail,SiFacebook,SiInstagram,SiGithub } from "react-icons/si";
+
 export default function Redes() {
     const correo = () => {
         alert("ivan2295isc@gmail.com");
@@ -12,9 +11,9 @@ export default function Redes() {
             </div>
             <div>
                 <ul>
-                    <li><a href="https://www.facebook.com/ivan.perezugalde/"><BsFacebook /></a></li>
-                    <li><a href="https://www.instagram.com/perezivan2/"><BsInstagram /></a></li>
-                    <li><a href="https://github.com/ivanISC95"><BsGithub /> </a></li>
+                    <li><a className='nombre' href="https://www.facebook.com/ivan.perezugalde/"><SiFacebook /></a></li>
+                    <li><a className='nombre' href="https://www.instagram.com/perezivan2/"><SiInstagram /></a></li>
+                    <li><a className='nombre' href="https://github.com/ivanISC95"><SiGithub /> </a></li>
                     <li onClick={correo}><SiGmail /></li>
                 </ul>
             </div>

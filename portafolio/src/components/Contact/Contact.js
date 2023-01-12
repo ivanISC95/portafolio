@@ -1,6 +1,6 @@
 import Redes from "../Home/Redes";
 import { Card,Button } from "react-bootstrap";
-import cv from '../../PDF/Jose Ivan Perez Ugalde CV.pdf';
+import cv from '../../PDF/CV Perez Ugalde Jose Ivan.pdf';
 export default function Contact() {
     return (
         <div>
