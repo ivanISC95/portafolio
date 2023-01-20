@@ -33,10 +33,6 @@ li {
     background: black;    
 }
 
-.NavBar {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(234, 234, 238) 77%, rgba(3, 39, 46, 1) 100%);
-}
 
 .body {
     padding: 50px 15px 5px;
@@ -61,11 +57,6 @@ li {
     font-size: 1cm;
 }
 
-li:hover {
-    color: blue;
-    border: 1px solid #292929;
-    transition: .5s;
-}
 
 
 .foto {
@@ -103,13 +94,6 @@ li:hover {
     filter: drop-shadow(0 0 20px white);
     /*filter: drop-shadow(0 0 20px white);*/
 }
-.App-content-characters {    
-    
-    align-items: center;
-    justify-content: center;
-    font-size: calc(2px + 2vmin);    
-    padding: 16px;
-  }
 
 .aboutImg {        
     height: 30%;
@@ -164,5 +148,5 @@ li:hover {
 }
 .contacto{
     align-items: center;
-    width: 45%;
+    width: 50%;
 }

@@ -4,15 +4,15 @@ import Red1 from '../../img/Red1.jpg';
 import Red2 from '../../img/Red2.jpg';
 import gitCertificado from '../../img/gitCertificado.jpg';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { FaPhp, FaPython, FaReact, FaUbuntu, FaGithub, FaHtml5 } from 'react-icons/fa';
-import { SiMysql, SiPostgresql, SiCsswizardry } from 'react-icons/si';
+import { FaPhp, FaPython, FaReact, FaUbuntu, FaGithub, FaHtml5,FaNodeJs } from 'react-icons/fa';
+import { SiMysql, SiPostgresql, SiCsswizardry,SiMicrosoftsqlserver,SiAngularjs } from 'react-icons/si';
 
 const works = [
     {"id": 1,"descripcion": "Prueba técnica la cual llevo como finalidad crear una aplicación web que muestre los personajes de la serie de “The Rick and Morty”. Para ello se utilizará un API en la cual se obtuvo toda la información sobre los personajes y la serie","tecnologia":"React.JS","URL":"https://ivanisc95.github.io/rick-and-morty-characters/"},
     {"id": 2,"descripcion": "Pagina de contacto para la empresa CPGE , especializada en consultoria y gestión en el estado de Queretaro","tecnologia":"React.JS","URL":"https://ivanisc95.github.io/cpge/"}
 ];
 const courses = [
-    {"id": 1,"img":backEnd,"titulo": "Desarrollador Back-end", "descripcion": "Curso de capacitación para Desarrollador Back-end , dicho curso consto de la arquitectura cliente-servidor, modelo vista controlador, diferencias entre web estática y dinámica"},
+    { "id":1,"img":backEnd,"titulo": "Desarrollador Back-end", "descripcion": "Curso de capacitación para Desarrollador Back-end , dicho curso consto de la arquitectura cliente-servidor, modelo vista controlador, diferencias entre web estática y dinámica"},
     { "id":2,"img": frontEnd, "titulo": "Desarrollador Front-end", "descripcion": "Curso de capacitación para Desarrollo Front-end , dicho curso consto de tipos de sitios web(dinámicos y estáticos),proceso de desarrollo , requerimientos y filtrado de estos, sintaxis básica de HTML, CSS y JAVASCRIPT" },
     { "id":3,"img": Red1, "titulo": "CCNAv7: Switching, Routing and Wireless Essentials", "descripcion": "Configurar las VLAN y el enrutamiento entre VLAN aplicando las mejores prácticas de seguridad Solucionar problemas de ruteo entre redes VLAN en dispositivos de capa 3. Configurar la redundancia en una red conmutada utilizando STP y EtherChannel" },
     { "id":4,"img": Red2, "titulo": "CCNAv7: Introducción a Redes", "descripcion": "Configurar los switch y dispositivos finales para proporcionar acceso a recursos de redes locales y remotos." },
@@ -28,6 +28,9 @@ const skills = [
     { "name": "PostgreSQL", "descripcion": "Experiencia y conocimientos en el uso de PostgreSQL", "icono": <SiPostgresql className="iconsSkills" />, "tipo": "Base de Datos" },
     { "name": "GitHub", "descripcion": "Experiencia y uso en la plataforma GitHub para control de versiones", "icono": <FaGithub className="iconsSkills" />, "tipo": "Control de versiones" },
     { "name": "HTML", "descripcion": "Experiencia y uso en HTML", "icono": <FaHtml5 className="iconsSkills" />, "tipo": "Lenguaje de marcado" },
-    { "name": "CSS", "descripcion": "Experiencia y uso en CSS", "icono": <SiCsswizardry className="iconsSkills" />, "tipo": "Lenguaje de diseño" }
+    { "name": "CSS", "descripcion": "Experiencia y uso en CSS", "icono": <SiCsswizardry className="iconsSkills" />, "tipo": "Lenguaje de diseño" },
+    { "name": "Microsoft SQL Server", "descripcion": "Experiencia y uso en Microsoft SQL Server", "icono": <SiMicrosoftsqlserver className="iconsSkills" />, "tipo": "BDD" },
+    { "name": "NodeJS", "descripcion": "Experiencia y uso en NodeJS , así como creación de API´s con Express", "icono": <FaNodeJs className="iconsSkills" />, "tipo": "Entorno de servidor" },
+    { "name": "Angular", "descripcion": "Experiencia y uso del Framework Angular", "icono": <SiAngularjs className="iconsSkills" />, "tipo": "Framework" }
 ];
 export {works,courses,skills};
