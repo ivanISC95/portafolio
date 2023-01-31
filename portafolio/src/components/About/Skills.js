@@ -1,7 +1,9 @@
 import { Card, Col, Row } from "react-bootstrap";
-import { skills } from "../Datas/Datas";
+import { useSelector } from "react-redux";
+
 
 export default function Skills() {
+    const skills = useSelector(state => state.skills);
     return (
         <div className="skills">
             <div>

@@ -75,13 +75,10 @@ li {
 .aboutInicio {
     color: aliceblue;
     width: 100%;
-    height: 720px;
-    padding: 50px 15px 50px;
+    height: 630px;
     text-align: center;
     display: flex;
-    justify-content: center;
-    border-style: solid;
-    border-color: black;
+    justify-content: center;    
     background-color: black;    
 }
 .HomePhoto{
@@ -102,8 +99,8 @@ li {
 
 .aboutInfo {
     padding: 20px 15px 20px;
-    max-width: 110%;  
-    height: 30%;
+    max-width: 110%;      
+    height: 100%;
     float: left;
 }
 

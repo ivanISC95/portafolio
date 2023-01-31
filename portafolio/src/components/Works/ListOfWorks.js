@@ -1,6 +1,8 @@
 import { Table } from "react-bootstrap";
-import {works} from '../Datas/Datas';
+import { useSelector } from 'react-redux';
+
 export default function ListOfWorks() {
+    const works = useSelector(state => state.works);
     return (
         <Table striped bordered hover>
             <thead>

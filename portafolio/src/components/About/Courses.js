@@ -1,7 +1,8 @@
 import {Carousel } from "react-bootstrap";
-import {courses} from '../Datas/Datas';
+import { useSelector } from 'react-redux';
 
 export default function Courses() {
+    const courses = useSelector(state => state.courses);    
     return (
         <div className="courses">
             <div>
