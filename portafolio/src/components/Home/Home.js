@@ -1,17 +1,16 @@
 import me from '../../img/me.png';
 
 export default function Home() {
-    return (
-        <>
-            <div className="aboutInicio">
-                <div className="aboutInfo">
-                    <h2>Ingeniero en Sistemas Computacionales</h2>
+    return (       
+        <section className='aboutInicio'>
+            <div>
+                <header className='aboutImg'>
+                    <h1>Ingeniero en Sistemas Computacionales</h1>
+                    <h2>Desarrollador</h2>
                     <img src={me} alt="me" className='HomePhoto'></img>
-                    <h1 className='nombre'>Jose Ivan Perez Ugalde</h1>
-                </div>
-
+                    <h1>Jose Ivan Perez Ugalde</h1>
+                </header>
             </div>
-            <footer>V1.0.2 - Create by J.Ivan Perez</footer>
-        </>
+        </section>
     )
 }
