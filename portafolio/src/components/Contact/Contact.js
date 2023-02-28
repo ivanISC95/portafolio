@@ -4,9 +4,6 @@ import cv from '../../PDF/CV Perez Ugalde Jose Ivan.pdf';
 export default function Contact() {
     return (
         <div>
-            <div className="inicio">
-                <h1>Contact</h1>
-            </div>
             <div className="academic">
                 <h1 className='formacion'>Mis datos de contacto se muestran a continuación</h1>
                 <Card className="contacto">
