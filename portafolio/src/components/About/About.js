@@ -1,6 +1,5 @@
 import logo from '../../img/graduacion.png'
 import Academic from './Academic'
-import Courses from './Courses'
 import Skills from './Skills'
 export default function About(){
     return(
@@ -15,8 +14,7 @@ export default function About(){
                 </div>
             </div>
             <Academic></Academic>            
-            <Skills></Skills>
-            <Courses></Courses>
+            <Skills></Skills>            
         </div>
     )
 }

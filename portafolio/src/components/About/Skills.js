@@ -7,7 +7,7 @@ export default function Skills() {
     return (
         <div className="skills">
             <div>
-                <h1 className='formacion'>Skillś</h1>
+                <h1 className='formacion'>SKILLSET</h1>
             </div>
             <section className='App-content-characters'>
                 <Row xs={2} md={4} className="g-5" >
@@ -15,19 +15,8 @@ export default function Skills() {
                         skills.map(
                             data => (
                                 <Col key={data.name}>
-                                    <Card border="secondary" key={data.name}>
-                                        <div >
-                                            {data.icono}
-                                        </div>
-                                        <Card.Body>
-                                            <Card.Title>{data.name}</Card.Title>
-                                            <Card.Text>
-                                                {data.descripcion}
-                                            </Card.Text>
-                                        </Card.Body>
-                                        <Card.Footer>
-                                            <small>Skill: {data.tipo}</small>
-                                        </Card.Footer>
+                                    <Card  key={data.name}>
+                                        <div>{data.icono}</div>                                        
                                     </Card>
                                 </Col>
                             )

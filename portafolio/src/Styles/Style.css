@@ -89,7 +89,7 @@ li {
 
 .aboutInicio{    
     width: 100%;
-    height: 655px;
+    height: 700px;
     color: aliceblue;
     text-align: center;
     display: flex;
@@ -116,7 +116,7 @@ li {
 
 .redes {   
     width: 100%;
-    height: 310px;
+    height: 350px;
     padding: 50px 15px 50px;
     text-align: center;
     justify-content: center;
@@ -131,9 +131,6 @@ li {
     color: black;
 }
 
-.skills-card {
-    color: #000000;
-}
 
 .courses {
     padding: 1px 15px 10px;
