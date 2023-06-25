@@ -2,6 +2,7 @@ import './home.css'
 import Skills from '../Skills/Skills'
 import Experience from '../Experience/Experience'
 import Contact from '../Contact/Contact'
+import Project from '../Projects/Project'
 export default function Home() {
   const a = "{"
   const b = "}"
@@ -19,15 +20,16 @@ export default function Home() {
       </section>
       <nav >
         <ul>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#skill">Skills</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a className='home-atajos' href="#contact">Contact</a></li>
+          <li><a className='home-atajos' href="#experience">Experience</a></li>
+          <li><a className='home-atajos' href="#skill">Skills</a></li>
+          <li><a className='home-atajos' href="#project">Projects</a></li>
         </ul>
       </nav>   
       <Contact></Contact>
       <Experience></Experience>   
       <Skills></Skills>
+      <Project></Project>
     </>
   )
 }

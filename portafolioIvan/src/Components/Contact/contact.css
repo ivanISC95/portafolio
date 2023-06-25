@@ -4,21 +4,19 @@
   height: 80vh; 
 }
 
-.section-contact ul{
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   list-style: none;
+  align-items: center;
 }
 
-.section-contact ul li{
-  margin: 12px;
-}
-.section-contact ul li strong{
-  display: inline-block;
-  color: #1c55b6;
-  width: 130px;
-}
-.section-contact ul li span{
-  background-color: #1c55b6;
-  padding: 3px;
-  font-weight: bold;
-  border-radius: 5px;
+* {outline: none !important;}
+textarea:focus, input:focus {outline: none !important;}
+
+a {color: white; font-family: arial; text-decoration: none;}
+
+a:visited {
+  background-color: blue;
 }
