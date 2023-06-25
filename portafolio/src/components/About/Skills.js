@@ -1,9 +1,11 @@
 import { Card, Col, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
-
+import { initialState } from '../../features/datas/skills'
 
 export default function Skills() {
-    const skills = useSelector(state => state.skills);
+    console.log("aqui")
+    console.log(initialState)
+    
     return (
         <div className="skills">
             <div>

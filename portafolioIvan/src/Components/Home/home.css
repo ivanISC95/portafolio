@@ -1,0 +1,79 @@
+:root {
+  font-family: 'BacasimeAntique';
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #100f0f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: 'BacasimeAntique';
+  src: local('BacasimeAntique'), url(../../fonts/BacasimeAntique-Regular.ttf) format('truetype');
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.nombre-principal{
+  font-size: 7vw;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 25ch;
+  animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+.span-home {
+  color: rgb(81, 194, 128);
+}
+
+@-webkit-keyframes typing {
+
+  from {
+    width: 0
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+h1{
+  font-size: 3vw;
+}
+
+p{
+  font-size: 1.5vw;
+}
+.span-skills {
+  color: rgb(62, 174, 109);
+}
+
+nav ul {
+  margin: 2em;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 15px 25px;
+  border: 2px solid rgb(62, 174, 109);
+  border-radius: 10%;
+  color: whitesmoke;
+  background-color: rgb(62, 174, 109);;
+}
