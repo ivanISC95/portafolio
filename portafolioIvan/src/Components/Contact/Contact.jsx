@@ -15,8 +15,9 @@ export default function Contact() {
         <div className="card">
           <a><AiOutlineMail className="iconsSkills" /></a>
           <p>ivan2295isc@gmail.com</p>
-        </div>
+        </div>        
       </div>
+      <br />
     </section>
   )
 }

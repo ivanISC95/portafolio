@@ -16,7 +16,3 @@
 textarea:focus, input:focus {outline: none !important;}
 
 a {color: white; font-family: arial; text-decoration: none;}
-
-a:visited {
-  background-color: blue;
-}

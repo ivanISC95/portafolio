@@ -14,8 +14,8 @@ export default function Home() {
         </div>
         <div className="informacion">
           <p> <span className="span-skills">C</span>omputer Systems Engineer and Developer. </p>
-          <p><span className="span-skills">P</span>assionate about web development and databases.
-            Web development experience with React.JS, Angular and .Net Framework and other technologies</p>
+          <p><span className="span-skills">P</span>assionate about web development and databases.</p>
+          <p><span className="span-skills">W</span>eb development experience with React.JS, Angular and .Net Framework and other technologies</p>
         </div>
       </section>
       <nav >
@@ -27,6 +27,7 @@ export default function Home() {
         </ul>
       </nav>   
       <Contact></Contact>
+      <br />
       <Experience></Experience>   
       <Skills></Skills>
       <Project></Project>

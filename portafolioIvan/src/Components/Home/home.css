@@ -9,6 +9,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  font-size: 20%;
 }
 
 @font-face {
@@ -21,6 +22,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+
 
 
 .nombre-principal{
@@ -54,24 +57,28 @@ h1{
 }
 
 p{
-  font-size: 1.5vw;
+  font-size: 2.5vw;
 }
 .span-skills {
   color: rgb(62, 174, 109);
 }
 
 nav ul {
-  margin: 2em;
+  margin: 5em;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
   align-items: center;
+  list-style: none;
+}
+a { 
+  font-size: 3vw;
 }
 
 .home-atajos {
   outline: none;
-  text-decoration: none;
-  padding: 15px 25px;
+  text-decoration: none;  
   border: 2px solid rgb(62, 174, 109);
   border-radius: 10%;
   color: whitesmoke;
