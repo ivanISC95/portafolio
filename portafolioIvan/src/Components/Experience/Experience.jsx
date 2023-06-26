@@ -18,14 +18,14 @@ export default function Experience() {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography sx={{ width: '33%', flexShrink: 0}}>
+            <Typography sx={{ width: '33%', flexShrink: 0}} component="span">
               Caja Negra / San Juan del Rio, Queretaro / Mexico 
             </Typography>
-            <Typography sx={{ color: 'text.secondary' }}>Ag 2021 - Dic 2021</Typography>
+            <Typography sx={{ color: 'text.secondary' }} component="span">Ag 2021 - Dic 2021</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              <p>Developer Fullstack</p>
+            <Typography component="span">
+              <span>Developer Fullstack</span>
               <ul>
                 <li>Web Developer with React.JS</li>
                 <li>Make Database in PostgreSQL</li>
@@ -41,14 +41,14 @@ export default function Experience() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography sx={{ width: '33%', flexShrink: 0 }}>
+            <Typography sx={{ width: '33%', flexShrink: 0 }} component="span">
               Dataware Solutions / Queretaro / Mexico 
             </Typography>
             <Typography sx={{ color: 'text.secondary' }}>Ag 2022 - Today</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              <p>Web Developer</p>
+            <Typography component="span">
+              <span>Web Developer</span>
               <ul>
                 <li>Web Developer with .Net</li>
                 <li>Create and modify modules web in .Net</li>

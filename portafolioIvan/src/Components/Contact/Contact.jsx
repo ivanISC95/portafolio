@@ -1,5 +1,9 @@
 import './contact.css'
 import { AiFillLinkedin, AiOutlineMail, AiFillGithub } from 'react-icons/ai'
+import { BsFileEarmarkArrowDown } from 'react-icons/bs'
+import IconButton from '@mui/material/IconButton';
+//import { cv } from '../../cv/Perez Ugalde Jose Ivan CV.pdf'
+import cv from '../../cv/Perez Ugalde Jose Ivan CV.pdf'
 
 export default function Contact() {
   return (
@@ -15,7 +19,12 @@ export default function Contact() {
         <div className="card">
           <a><AiOutlineMail className="iconsSkills" /></a>
           <p>ivan2295isc@gmail.com</p>
-        </div>        
+        </div>    
+        <div className="card">
+        <IconButton color="primary" className="card" href={cv} target="_blank">
+          <BsFileEarmarkArrowDown className="iconsSkills"/>
+        </IconButton>
+        </div>      
       </div>
       <br />
     </section>
