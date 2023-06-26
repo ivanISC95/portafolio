@@ -3,6 +3,13 @@
   border-top: 2px solid #28C76F;  
 }
 
-.project-table{ 
-  font-size: 220px;
+.project-datas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-cards {
+  margin: 2vw;
+  width: 100vw;
 }

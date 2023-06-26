@@ -85,3 +85,17 @@ a {
   color: whitesmoke;
   background-color: rgb(62, 174, 109);;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(62, 174, 109);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(62, 174, 109);  /* creates padding around scroll thumb */
+}
