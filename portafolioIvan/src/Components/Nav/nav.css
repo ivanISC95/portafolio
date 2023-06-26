@@ -1,0 +1,9 @@
+.section-nav{
+  margin: 4vw 4vw;
+}
+
+.nav-bottons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
