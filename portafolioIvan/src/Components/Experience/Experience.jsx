@@ -18,10 +18,10 @@ export default function Experience() {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography sx={{ width: '33%', flexShrink: 0, fontSize : '0.4em' }}>
+            <Typography sx={{ width: '33%', flexShrink: 0}}>
               Caja Negra / San Juan del Rio, Queretaro / Mexico 
             </Typography>
-            <Typography sx={{ color: 'text.secondary' , fontSize : '0.4em'}}>Ag 2021 - Dic 2021</Typography>
+            <Typography sx={{ color: 'text.secondary' }}>Ag 2021 - Dic 2021</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -41,10 +41,10 @@ export default function Experience() {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography sx={{ width: '33%', flexShrink: 0, fontSize : '0.4em' }}>
+            <Typography sx={{ width: '33%', flexShrink: 0 }}>
               Dataware Solutions / Queretaro / Mexico 
             </Typography>
-            <Typography sx={{ color: 'text.secondary' , fontSize : '0.4em'}}>Ag 2022 - Today</Typography>
+            <Typography sx={{ color: 'text.secondary' }}>Ag 2022 - Today</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
