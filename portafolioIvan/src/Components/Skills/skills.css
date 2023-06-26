@@ -26,6 +26,7 @@ h2 {
 figcaption {
   display:none; 
   transition: all .5s;
+  font-size: 2vw;
 }
 /* Visible texto */
 div:hover > figcaption {
