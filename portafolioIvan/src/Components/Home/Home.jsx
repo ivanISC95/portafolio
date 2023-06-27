@@ -19,7 +19,7 @@ export default function Home() {
           <p><span className="span-skills">P</span>assionate about web development and databases.</p>
           <p><span className="span-skills">W</span>eb development experience with React.JS, Angular and .Net Framework and other technologies</p>
         </div>
-        <a class='flotante' href='#' >
+        <a className='flotante' href='#' >
           <AiOutlineHome className='flotante-img'/>
         </a>
       </section>     
