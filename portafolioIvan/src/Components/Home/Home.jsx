@@ -4,6 +4,7 @@ import Experience from '../Experience/Experience'
 import Contact from '../Contact/Contact'
 import Project from '../Projects/Project'
 import Nav from '../Nav/Nav'
+import { AiOutlineHome } from 'react-icons/ai'
 export default function Home() {
   const a = "{"
   const b = "}"
@@ -18,6 +19,9 @@ export default function Home() {
           <p><span className="span-skills">P</span>assionate about web development and databases.</p>
           <p><span className="span-skills">W</span>eb development experience with React.JS, Angular and .Net Framework and other technologies</p>
         </div>
+        <a class='flotante' href='#' >
+          <AiOutlineHome className='flotante-img'/>
+        </a>
       </section>     
       <Nav></Nav>
       <Contact></Contact>
