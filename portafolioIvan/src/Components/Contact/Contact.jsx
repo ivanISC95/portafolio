@@ -17,7 +17,7 @@ export default function Contact() {
           <a href='https://www.linkedin.com/in/jose-ivan-perez-ugalde-050a1b221/' target="_blank"><AiFillLinkedin className="iconsSkills" /></a>
         </div>
         <div className="card">
-          <a><AiOutlineMail className="iconsSkills" /></a>
+          <AiOutlineMail className="iconsSkills" />
           <p>ivan2295isc@gmail.com</p>
         </div>    
         <div className="card">

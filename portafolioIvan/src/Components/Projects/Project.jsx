@@ -34,7 +34,7 @@ export default function Project() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <a target="_blank" href={data.url}><Button size="small">Go</Button></a>
+                  <a target="_blank" href={data.url}><Button size="small">Go to {data.name}</Button></a>
                 </CardActions>
               </Card>
             )
