@@ -34,7 +34,7 @@ export default function Experience() {
               </ul>
             </Typography>
           </AccordionDetails>
-        </Accordion>
+        </Accordion>        
         <Accordion>
           <AccordionSummary
             expandIcon={<MdExpandMore />}
@@ -44,7 +44,7 @@ export default function Experience() {
             <Typography sx={{ width: '33%', flexShrink: 0 }} component="span">
               Dataware Solutions / Queretaro / Mexico 
             </Typography>
-            <Typography sx={{ color: 'text.secondary' }}>Ag 2022 - Today</Typography>
+            <Typography sx={{ color: 'text.secondary' }}>Ag 2022 - Nov 2023</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography component="span">
@@ -56,6 +56,30 @@ export default function Experience() {
                 <li>Create and modify views and stored procedures in SQL Server</li>                
                 <li>Version control with GIT and SVN</li>
                 <li>Standardized</li>                              
+              </ul>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<MdExpandMore />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography sx={{ width: '33%', flexShrink: 0 }} component="span">
+              Imbera / San Juan del Rio , Queretaro / Mexico 
+            </Typography>
+            <Typography sx={{ color: 'text.secondary' }}>Nov 2023 - Today</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography component="span">
+              <span>Web Developer</span>
+              <ul>
+                <li>Web Developer with ReactJS and React with Typescript</li>
+                <li>Create and modify modules web</li>
+                <li>Use localstorage, sessionStorage and redux in projects.</li>
+                <li>Automation with python(Pandas,sharepoint and bigquery)</li>            
+                <li>Version control with GIT</li>
               </ul>
             </Typography>
           </AccordionDetails>
