@@ -20,7 +20,7 @@ export default function Home() {
           <p><span className="span-skills">E</span>xperience delivering solutions with React, TypeScript, FastAPI and Angular, deploying services on Google Cloud and Firebase.</p>
           <p><span className="span-skills">S</span>killed in CI/CD automation with GitHub Actions, technical documentation, and mentoring junior developers.</p>
         </div>
-        <a className='flotante' href='#' >
+        <a className='flotante' href='#' aria-label="Go to top">
           <AiOutlineHome className='flotante-img'/>
         </a>
       </section>     

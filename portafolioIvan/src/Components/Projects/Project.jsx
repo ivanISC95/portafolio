@@ -34,7 +34,12 @@ export default function Project() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <a target="_blank" href={data.url}><Button size="small">Go to {data.name}</Button></a>
+                  <a target="_blank" href={data.url} rel="noreferrer"><Button size="small"
+                    sx={{
+                      minWidth: "48px",
+                      minHeight: "48px",
+                      padding: "0 12px", // ajusta horizontal si quieres
+                    }}>Go to {data.name}</Button></a>
                 </CardActions>
               </Card>
             )
