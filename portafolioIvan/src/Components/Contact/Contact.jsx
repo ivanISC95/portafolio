@@ -11,13 +11,13 @@ export default function Contact() {
       <h1>Contact</h1>      
       <div className="cards">
         <div className="card">
-          <a href='https://github.com/ivanISC95' target="_blank"><AiFillGithub className="iconsSkills" /></a>
+          <a href='https://github.com/ivanISC95' target="_blank" rel="noreferrer"><AiFillGithub className="iconsSkills" /></a>
         </div>
         <div className="card">
-          <a href='https://www.linkedin.com/in/jose-ivan-perez-ugalde-050a1b221/' target="_blank"><AiFillLinkedin className="iconsSkills" /></a>
+          <a href='https://www.linkedin.com/in/jose-ivan-perez-ugalde-050a1b221/' target="_blank" rel="noreferrer"><AiFillLinkedin className="iconsSkills" /></a>
         </div>
         <div className="card">          
-          <a href="mailto:ivan2295isc@gmail.com?subject=Job%20Opportunity&body=Hello%20Jose%2C%0D%0A%0D%0AI%20would%20like%20to%20contact%20you%20regarding%20..." target="_blank"><AiOutlineMail className="iconsSkills" /></a>
+          <a href="mailto:ivan2295isc@gmail.com?subject=Job%20Opportunity&body=Hello%20Jose%2C%0D%0A%0D%0AI%20would%20like%20to%20contact%20you%20regarding%20..." target="_blank" rel="noreferrer"><AiOutlineMail className="iconsSkills" /></a>
         </div>    
         <div className="card">
         <IconButton color="primary" className="card" href={cv} target="_blank">
