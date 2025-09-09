@@ -12,12 +12,13 @@ export default function Home() {
     <>
       <section className="home">
         <div className="principal">
-          <h1 className='nombre-principal'> <span className='span-home'>${a}</span> Jose Ivan Perez Developer <span>{b}</span></h1>
+          <h1 className='nombre-principal'> <span className='span-home'>${a}</span>Ivan Fullstack Developer <span className='span-home'>{b}</span></h1>
         </div>
         <div className="informacion">
-          <p> <span className="span-skills">C</span>omputer Systems Engineer and Developer. </p>
-          <p><span className="span-skills">P</span>assionate about web development and databases.</p>
-          <p><span className="span-skills">W</span>eb development experience with React.JS, Angular and .Net Framework and other technologies</p>
+          <p> <span className="span-skills">C</span>omputer Systems Engineer | Fullstack Developer (React, FastAPI, GCP)</p>
+          <p><span className="span-skills">P</span>assionate about building scalable web applications and optimizing databases.</p>
+          <p><span className="span-skills">E</span>xperience delivering solutions with React, TypeScript, FastAPI and Angular, deploying services on Google Cloud and Firebase.</p>
+          <p><span className="span-skills">S</span>killed in CI/CD automation with GitHub Actions, technical documentation, and mentoring junior developers.</p>
         </div>
         <a className='flotante' href='#' >
           <AiOutlineHome className='flotante-img'/>
