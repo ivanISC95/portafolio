@@ -1,12 +1,11 @@
 import "./skills.css"
-import { FaBeer } from 'react-icons/fa';
 import { initialState } from "../../features/datas/skills";
 
 export default function Skills() {  
   return (
     <section id="skill" className="skills">
       <div className="skill-nombre">
-        <h2>Skills, languages ​​and technologies</h2>
+        <h2>Skills</h2>
       </div>
       <div className="cards">        
         {

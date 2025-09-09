@@ -1,22 +1,107 @@
 // importacion de librerias img
 import { IoLogoJavascript } from 'react-icons/io5';
-import { FaPhp, FaPython, FaReact, FaUbuntu, FaGithub, FaHtml5,FaNodeJs } from 'react-icons/fa';
-import { SiMysql, SiPostgresql, SiCsswizardry,SiMicrosoftsqlserver,SiAngularjs,SiRedux } from 'react-icons/si';
-import { AiOutlineConsoleSql } from 'react-icons/ai'
+import { FaReact, FaGithub, FaHtml5, FaPython } from 'react-icons/fa';
+import { 
+  SiPostgresql, 
+  SiCsswizardry,
+  SiMicrosoftsqlserver,
+  SiAngularjs,
+  SiRedux,
+  SiTypescript,
+  SiGooglecloud,
+  SiFastapi
+} from 'react-icons/si';
 import './img.css';
 
 export const initialState = [
-    { "name": "Javascript", "descripcion": "Conocimientos sobre el lenguaje, conceptos basicos , ciclos y condicionales", "icono": <IoLogoJavascript className="iconsSkills" />, "tipo": "lenguaje de programacion" },
-    { "name": "SQL", "descripcion":"Lenguaje de dominio para bases de datos relasionales", "icono": <AiOutlineConsoleSql className="iconsSkills" />, "tipo": "lenguaje de programacion" },    
-    { "name": "React JS", "descripcion": "Conocimientos sobre el uso,creación y implementación de la libreria React JS para páginas web estáticas y dinamicas,así como funciones props y componentes(Este portafolio fue realizado con ReactJS)", "icono": <FaReact className="iconsSkills" />, "tipo": "Libreria" },
-    { "name": "Ubuntu", "descripcion": "Experiencia en el uso del SO Ubuntu, conocimientos sobre comandos básicos de terminal", "icono": <FaUbuntu className="iconsSkills" />, "tipo": "Sistema Operativo" },
-    { "name": "MySQL", "descripcion": "Experiencia y conocimientos en el uso de MySQL", "icono": <SiMysql className="iconsSkills" />, "tipo": "Base de Datos" },
-    { "name": "PostgreSQL", "descripcion": "Experiencia y conocimientos en el uso de PostgreSQL", "icono": <SiPostgresql className="iconsSkills" />, "tipo": "Base de Datos" },
-    { "name": "GitHub", "descripcion": "Experiencia y uso en la plataforma GitHub para control de versiones", "icono": <FaGithub className="iconsSkills" />, "tipo": "Control de versiones" },
-    { "name": "HTML", "descripcion": "Experiencia y uso en HTML", "icono": <FaHtml5 className="iconsSkills" />, "tipo": "Lenguaje de marcado" },
-    { "name": "CSS", "descripcion": "Experiencia y uso en CSS", "icono": <SiCsswizardry className="iconsSkills" />, "tipo": "Lenguaje de diseño" },
-    { "name": "Microsoft SQL Server", "descripcion": "Experiencia y uso en Microsoft SQL Server", "icono": <SiMicrosoftsqlserver className="iconsSkills" />, "tipo": "BDD" },
-    { "name": "Angular", "descripcion": "Experiencia y uso del Framework Angular", "icono": <SiAngularjs className="iconsSkills" />, "tipo": "Framework" },
-    { "name": "Redux Toolkit", "descripcion": "Uso de la libreria Redux Toolkit para control de estados", "icono": <SiRedux className="iconsSkills" />, "tipo": "Libreria" }
-];
+  { 
+    "name": "React", 
+    "descripcion": "Conocimientos sobre el uso, creación e implementación de la librería React JS para páginas web estáticas y dinámicas, así como funciones props y componentes (Este portafolio fue realizado con ReactJS)", 
+    "icono": <FaReact className="iconsSkills" />, 
+    "tipo": "Librería" 
+  },
 
+  { 
+    "name": "Typescript", 
+    "descripcion": "Conocimientos sobre el lenguaje, tipado estricto y buenas prácticas en proyectos a escala", 
+    "icono": <SiTypescript className="iconsSkills" />, 
+    "tipo": "Lenguaje de programación" 
+  },
+
+  { 
+    "name": "Javascript", 
+    "descripcion": "Amplia experiencia en el lenguaje base para desarrollo frontend y backend", 
+    "icono": <IoLogoJavascript className="iconsSkills" />, 
+    "tipo": "Lenguaje de programación" 
+  },
+
+  { 
+    "name": "Python", 
+    "descripcion": "Experiencia en desarrollo backend y scripting con Python, incluyendo integración con frameworks modernos", 
+    "icono": <FaPython className="iconsSkills" />, 
+    "tipo": "Lenguaje de programación" 
+  },
+
+  { 
+    "name": "FastAPI", 
+    "descripcion": "Desarrollo de APIs modernas, rápidas y seguras usando FastAPI, integradas con frontend y bases de datos", 
+    "icono": <SiFastapi className="iconsSkills" />, 
+    "tipo": "Framework Backend" 
+  },
+
+  { 
+    "name": "Google Cloud", 
+    "descripcion": "Experiencia en despliegue y gestión de aplicaciones en la nube usando Google Cloud Run, Firebase Hosting y servicios asociados", 
+    "icono": <SiGooglecloud className="iconsSkills" />, 
+    "tipo": "Cloud Platform" 
+  },
+
+  { 
+    "name": "Redux Toolkit", 
+    "descripcion": "Uso de la librería Redux Toolkit para control eficiente de estados en aplicaciones grandes", 
+    "icono": <SiRedux className="iconsSkills" />, 
+    "tipo": "Librería" 
+  },
+
+  { 
+    "name": "Angular", 
+    "descripcion": "Experiencia y uso del Framework Angular en desarrollo frontend", 
+    "icono": <SiAngularjs className="iconsSkills" />, 
+    "tipo": "Framework" 
+  },
+
+  { 
+    "name": "PostgreSQL", 
+    "descripcion": "Experiencia y conocimientos en el uso de PostgreSQL como base de datos relacional", 
+    "icono": <SiPostgresql className="iconsSkills" />, 
+    "tipo": "Base de Datos" 
+  },
+
+  { 
+    "name": "Microsoft SQL Server", 
+    "descripcion": "Experiencia y uso en Microsoft SQL Server para desarrollo empresarial", 
+    "icono": <SiMicrosoftsqlserver className="iconsSkills" />, 
+    "tipo": "Base de Datos" 
+  },
+
+  { 
+    "name": "GitHub", 
+    "descripcion": "Experiencia y uso en la plataforma GitHub para control de versiones y colaboración en equipo", 
+    "icono": <FaGithub className="iconsSkills" />, 
+    "tipo": "Control de versiones" 
+  },
+
+  { 
+    "name": "HTML", 
+    "descripcion": "Experiencia y uso en HTML", 
+    "icono": <FaHtml5 className="iconsSkills" />, 
+    "tipo": "Lenguaje de marcado" 
+  },
+
+  { 
+    "name": "CSS", 
+    "descripcion": "Experiencia y uso en CSS para diseño responsivo y estilos personalizados", 
+    "icono": <SiCsswizardry className="iconsSkills" />, 
+    "tipo": "Lenguaje de diseño" 
+  },
+];
