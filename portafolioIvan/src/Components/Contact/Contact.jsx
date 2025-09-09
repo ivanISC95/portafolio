@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiOutlineMail, AiFillGithub } from 'react-icons/ai'
 import { BsFileEarmarkArrowDown } from 'react-icons/bs'
 import IconButton from '@mui/material/IconButton';
 import { CiLocationOn } from 'react-icons/ci'
-import cv from '../../cv/Perez Ugalde Jose Ivan CV.pdf'
+import cv from '../../cv/CV_Jose_Ivan_Perez.pdf'
 
 export default function Contact() {
   return (
@@ -16,9 +16,8 @@ export default function Contact() {
         <div className="card">
           <a href='https://www.linkedin.com/in/jose-ivan-perez-ugalde-050a1b221/' target="_blank"><AiFillLinkedin className="iconsSkills" /></a>
         </div>
-        <div className="card">
-          <AiOutlineMail className="iconsSkills" />
-          <p>ivan2295isc@gmail.com</p>
+        <div className="card">          
+          <a href="mailto:ivan2295isc@gmail.com?subject=Job%20Opportunity&body=Hello%20Jose%2C%0D%0A%0D%0AI%20would%20like%20to%20contact%20you%20regarding%20..." target="_blank"><AiOutlineMail className="iconsSkills" /></a>
         </div>    
         <div className="card">
         <IconButton color="primary" className="card" href={cv} target="_blank">
